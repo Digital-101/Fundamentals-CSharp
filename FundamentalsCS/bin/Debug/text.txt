@@ -1,0 +1,5 @@
+The Telerik Academy for software development engineers is a 
+famous center for free professional training of .NET experts. 
+Telerik Academy offers courses designed to develop practical 
+computer programming skills. Students graduated the Academy are 
+guaranteed to have a job as a software developers in Telerik.

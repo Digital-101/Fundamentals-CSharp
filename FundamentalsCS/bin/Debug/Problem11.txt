@@ -1,0 +1,142 @@
+FREE RESPONSIVE HORIZONTAL ADMIN
+LOG ME OUT
+DASHBOARD
+FORMS
+UI ELEMENTS
+UI ELEMENTS
+EXAMPLE LINK
+TABS & PANELS
+TABLES
+BLANK PAGE
+ADMIN DASHBOARD
+500+&nbsp;
+Amount Pending For Approval
+300+ Tasks
+Pending For New Events
+56+ Calls
+To Be Made For New Orders
+30+ Issues
+That Should Be Resolved Now
+Recent Chat History
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor.
+Amanna Seiar
+Time 2:00 pm at 25th july
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet.
+Amanna Seiar
+Time 2:00 pm at 25th july
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet.
+Amanna Seiar
+Time 2:00 pm at 25th july
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet.
+Amanna Seiar
+Time 2:00 pm at 25th july
+Recent Users
+Responsive Table Example
+#
+First Name
+Last Name
+Username
+User No.
+1
+Mark
+Otto
+@mdo
+100090
+2
+Jacob
+Thornton
+@fat
+100090
+3
+Larry
+the Bird
+@twitter
+100090
+4
+Mark
+Otto
+@mdo
+100090
+5
+Jacob
+Thornton
+@fat
+100090
+6
+Larry
+the Bird
+@twitter
+100090
+7
+Jacob
+Thornton
+@fat
+100090
+Recent Comments
+Lorem ipsum dolor sit amet
+Donec sit amet ligula enim. Duis vel condimentum massa.
+Maecenas eget congue dui
+interdum nibh et, volutpat dolor.
+Nulla gravida vitae neque
+Donec sit amet ligula enim. Duis vel condimentum massa.
+Maecenas eget congue dui. Vestibulum et eros consectetur,
+interdum nibh et, volutpat dolor.
+Donec sit amet ligula enim
+Donec sit amet ligula enim. Duis vel condimentum massa.
+Maecenas eget congue dui. Vestibulum et eros consectetur,
+interdum nibh et, volutpat dolor.
+IMPORTANT NOTICE
+Lorem ipsum dolor sit amet, consectetur adipiscing elit gthn.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit gthn.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit gthn.
+Lorem ipsum dolor sit amet.
+Read Full Detalis
+Alerts Examples
+Simple Alert
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Alert Link
+.
+Info: You can use other classes like
+alert-success
+,
+alert-warning
+&amp;
+alert-danger
+instead of
+alert-info
+Dismissable Alert
+×
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Alert Link
+.
+Info: You can use other classes like
+alert-info
+,
+alert-warning
+&amp;
+alert-danger
+instead of
+alert-success
+ICON EXAMPLES
+For more customization Of icons please visit website : fortawesome.github.io/Font-Awesome/icons/ or
+Click here
+. You will get all font-awesome icons and there classes there.
+Compose a Message
+Enter Name
+Enter Email
+Subject
+Enter Message
+Attach File
+For Role
+Webmaster
+Admin
+Employee
+User
+Send Message
+Reset Fields
+&copy; 2014 Yourdomain.com |
+Designed by : binarytheme.com

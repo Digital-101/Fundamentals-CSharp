@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F77C78E4-E0F3-4C9E-BE8C-BC418DCB8140}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FundamentalsCS</RootNamespace>
+    <AssemblyName>FundamentalsCS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01_Intro_Programming\EXE.cs" />
+    <Compile Include="01_Intro_Programming\IntroCS.cs" />
+    <Compile Include="02_Primitive_Types\EX2.cs" />
+    <Compile Include="10_Recursion\IterativeFibonacci.cs" />
+    <Compile Include="10_Recursion\IterativeNestedLoops.cs" />
+    <Compile Include="10_Recursion\MiscRecur.cs" />
+    <Compile Include="10_Recursion\PathInLabyrinth.cs" />
+    <Compile Include="10_Recursion\RecursiveFactorial.cs" />
+    <Compile Include="10_Recursion\RecursiveFibonacciMemoization.cs" />
+    <Compile Include="10_Recursion\RecursiveNestedLoops.cs" />
+    <Compile Include="10_Recursion\SolveRecur.cs" />
+    <Compile Include="11_Create_Obj\Cat.cs" />
+    <Compile Include="11_Create_Obj\MathTest.cs" />
+    <Compile Include="11_Create_Obj\MiscObj.cs" />
+    <Compile Include="11_Create_Obj\NameSpaceImportTest.cs" />
+    <Compile Include="11_Create_Obj\RandomPassword.cs" />
+    <Compile Include="11_Create_Obj\Sequence.cs" />
+    <Compile Include="11_Create_Obj\SolveObj.cs" />
+    <Compile Include="11_Create_Obj\SystemTest.cs" />
+    <Compile Include="12_Except_Handle\MiscExept.cs" />
+    <Compile Include="12_Except_Handle\SolveExcept.cs" />
+    <Compile Include="13_String-n-Text\ConstructStrings.cs" />
+    <Compile Include="13_String-n-Text\String Misc.cs" />
+    <Compile Include="13_String-n-Text\StringFormatting.cs" />
+    <Compile Include="14_Define_Class\AnimalShelter22.cs" />
+    <Compile Include="14_Define_Class\Coffee.cs" />
+    <Compile Include="14_Define_Class\Dog.cs" />
+    <Compile Include="14_Define_Class\EnumCoffee.cs" />
+    <Compile Include="14_Define_Class\MiscClass.cs" />
+    <Compile Include="14_Define_Class\PlayWithPoints.cs" />
+    <Compile Include="14_Define_Class\point2D.cs" />
+    <Compile Include="14_Define_Class\PriceCalculator.cs" />
+    <Compile Include="14_Define_Class\SqrtPrecalculated.cs" />
+    <Compile Include="15_Text_Files\CountWords.cs" />
+    <Compile Include="15_Text_Files\Read.cs" />
+    <Compile Include="15_Text_Files\Write.cs" />
+    <Compile Include="16_Linear_DataStruct\CustomArrayList.cs" />
+    <Compile Include="16_Linear_DataStruct\Data.cs" />
+    <Compile Include="16_Linear_DataStruct\DynamicList.cs" />
+    <Compile Include="16_Linear_DataStruct\DynamicListTest.cs" />
+    <Compile Include="16_Linear_DataStruct\GenericCollect.cs" />
+    <Compile Include="16_Linear_DataStruct\ProgrArrayListEG.cs" />
+    <Compile Include="16_Linear_DataStruct\QueueUsage.cs" />
+    <Compile Include="16_Linear_DataStruct\StackUsage.cs" />
+    <Compile Include="16_Linear_DataStruct\UnionIntersect.cs" />
+    <Compile Include="17_Trees-n-Graphs\BinaryTree.cs" />
+    <Compile Include="17_Trees-n-Graphs\BinarySearchTree.cs" />
+    <Compile Include="17_Trees-n-Graphs\BinaryTreeNode.cs" />
+    <Compile Include="17_Trees-n-Graphs\Data2.cs" />
+    <Compile Include="17_Trees-n-Graphs\DirectoryTraverserBFS.cs" />
+    <Compile Include="17_Trees-n-Graphs\DirectoryTraverserDFS.cs" />
+    <Compile Include="17_Trees-n-Graphs\DynamicTree.cs" />
+    <Compile Include="17_Trees-n-Graphs\Graph.cs" />
+    <Compile Include="17_Trees-n-Graphs\GraphComponents.cs" />
+    <Compile Include="18_Dict-Hash-Sets\HashDictionary.cs" />
+    <Compile Include="18_Dict-Hash-Sets\IDict\IIDictionary.cs" />
+    <Compile Include="18_Dict-Hash-Sets\KeyValuePair.cs" />
+    <Compile Include="18_Dict-Hash-Sets\MiscDSA.cs" />
+    <Compile Include="18_Dict-Hash-Sets\PlayWithHashDictionary.cs" />
+    <Compile Include="18_Dict-Hash-Sets\Point3D.cs" />
+    <Compile Include="18_Dict-Hash-Sets\Point3DEqualityComparer.cs" />
+    <Compile Include="18_Dict-Hash-Sets\SortedSetsExample.cs" />
+    <Compile Include="18_Dict-Hash-Sets\StudentListSetsExample.cs" />
+    <Compile Include="18_Dict-Hash-Sets\StudentsExample.cs" />
+    <Compile Include="18_Dict-Hash-Sets\WordCountingWithSortedDictionary.cs" />
+    <Compile Include="19_Data_Structures-Algor\MiscAlgo.cs" />
+    <Compile Include="19_Data_Structures-Algor\PhoneBookFinder.cs" />
+    <Compile Include="19_Data_Structures-Algor\PhoneSearch.cs" />
+    <Compile Include="19_Data_Structures-Algor\PhoneSort.cs" />
+    <Compile Include="19_Data_Structures-Algor\Student.cs" />
+    <Compile Include="19_Data_Structures-Algor\Subsets.cs" />
+    <Compile Include="20_OOP-Principles\AbstractionExample.cs" />
+    <Compile Include="20_OOP-Principles\AfricanLion.cs" />
+    <Compile Include="20_OOP-Principles\Animal.cs" />
+    <Compile Include="20_OOP-Principles\Capital.cs" />
+    <Compile Include="20_OOP-Principles\Cat.cs" />
+    <Compile Include="20_OOP-Principles\Country.cs" />
+    <Compile Include="20_OOP-Principles\Example.cs" />
+    <Compile Include="20_OOP-Principles\Felidae.cs" />
+    <Compile Include="20_OOP-Principles\ImageCollection.cs" />
+    <Compile Include="20_OOP-Principles\Lion.cs" />
+    <Compile Include="20_OOP-Principles\ObjectExample.cs" />
+    <Compile Include="20_OOP-Principles\OverrideExample.cs" />
+    <Compile Include="20_OOP-Principles\Reproducible.cs" />
+    <Compile Include="20_OOP-Principles\Singleton.cs" />
+    <Compile Include="20_OOP-Principles\Thumbnail.cs" />
+    <Compile Include="20_OOP-Principles\ToStringExample.cs" />
+    <Compile Include="20_OOP-Principles\TransitivenesExample.cs" />
+    <Compile Include="20_OOP-Principles\VirtalMethodsExample.cs" />
+    <Compile Include="21_High_Quality-Code\Assertion.cs" />
+    <Compile Include="21_High_Quality-Code\CodeFormat.cs" />
+    <Compile Include="21_High_Quality-Code\EffectiveComment.cs" />
+    <Compile Include="21_High_Quality-Code\EnumTypes.cs" />
+    <Compile Include="21_High_Quality-Code\IndentationExample.cs" />
+    <Compile Include="21_High_Quality-Code\NameConstant.cs" />
+    <Compile Include="21_High_Quality-Code\QualityMethod.cs" />
+    <Compile Include="21_High_Quality-Code\Sumator.cs" />
+    <Compile Include="22_Lambda-LINQ\AnonTypes.cs" />
+    <Compile Include="22_Lambda-LINQ\Dog.cs" />
+    <Compile Include="22_Lambda-LINQ\ExtMethods.cs" />
+    <Compile Include="22_Lambda-LINQ\LambdaExp.cs" />
+    <Compile Include="22_Lambda-LINQ\LinqJoin.cs" />
+    <Compile Include="22_Lambda-LINQ\linqQueries.cs" />
+    <Compile Include="23_Method-Problem Solving\Card.cs" />
+    <Compile Include="23_Method-Problem Solving\CardsShuffle.cs" />
+    <Compile Include="23_Method-Problem Solving\Sort10000Numbers.cs" />
+    <Compile Include="23_Method-Problem Solving\SortNum.cs" />
+    <Compile Include="23_Method-Problem Solving\TestSolution.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\A\HTMLSOLVE.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\A\HtmlTagRemover.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\A\SimpleHtmlTagRemover.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\B\Cell.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\B\LabyTest.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\B\Maze.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\C\Car.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\C\Manufacturer.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\C\Part.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\C\PartCategory.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\C\Shop.cs" />
+    <Compile Include="24-26_Sample_Programming\24Exam-1\C\TestCar.cs" />
+    <Compile Include="24-26_Sample_Programming\25Exam-2\A\WordsCounter.cs" />
+    <Compile Include="24-26_Sample_Programming\25Exam-2\B\PrimeMatrix.cs" />
+    <Compile Include="24-26_Sample_Programming\25Exam-2\C\PerFomTest.cs" />
+    <Compile Include="24-26_Sample_Programming\25Exam-2\C\SimpleExpressionEvaluator.cs" />
+    <Compile Include="24-26_Sample_Programming\26Exam-3\A\MatrixSpiral.cs" />
+    <Compile Include="24-26_Sample_Programming\26Exam-3\B\AhoCorasickSearch.cs" />
+    <Compile Include="24-26_Sample_Programming\26Exam-3\B\CountSubstringsAhoCorasick.cs" />
+    <Compile Include="24-26_Sample_Programming\26Exam-3\B\CountSubstringsCharByChar.cs" />
+    <Compile Include="24-26_Sample_Programming\26Exam-3\B\CountSubstringsLineByLine.cs" />
+    <Compile Include="24-26_Sample_Programming\26Exam-3\C\Group.cs" />
+    <Compile Include="24-26_Sample_Programming\26Exam-3\C\School.cs" />
+    <Compile Include="24-26_Sample_Programming\26Exam-3\C\SchoolTest.cs" />
+    <Compile Include="24-26_Sample_Programming\26Exam-3\C\Student.cs" />
+    <Compile Include="24-26_Sample_Programming\26Exam-3\C\Teacher.cs" />
+    <Compile Include="24-26_Sample_Programming\26Exam-3\C\TestSchool.cs" />
+    <Compile Include="02_Primitive_Types\IntTypes.cs" />
+    <Compile Include="03_Operators_Expr\MiscExpression.cs" />
+    <Compile Include="04_Console_InOut\MiscConsole.cs" />
+    <Compile Include="04_Console_InOut\SolveConsole.cs" />
+    <Compile Include="03_Operators_Expr\BitwiseOperator.cs" />
+    <Compile Include="03_Operators_Expr\CodeExp.cs" />
+    <Compile Include="03_Operators_Expr\SolveOp.cs" />
+    <Compile Include="04_Console_InOut\Out.cs" />
+    <Compile Include="05_Conditional_Stat\FixState.cs" />
+    <Compile Include="05_Conditional_Stat\MiscState.cs" />
+    <Compile Include="05_Conditional_Stat\SolveCon.cs" />
+    <Compile Include="06_Loops\MiscLoop.cs" />
+    <Compile Include="06_Loops\OUtaloop.cs" />
+    <Compile Include="06_Loops\SolveLoop.cs" />
+    <Compile Include="07_Arrays\Matrix.cs" />
+    <Compile Include="07_Arrays\MiscArray.cs" />
+    <Compile Include="07_Arrays\SolveArray.cs" />
+    <Compile Include="08_Numeral_Sys\MiscSystem.cs" />
+    <Compile Include="08_Numeral_Sys\SolveNumeral.cs" />
+    <Compile Include="09_Methods\MiscMeth.cs" />
+    <Compile Include="09_Methods\SolveMethod.cs" />
+    <Compile Include="ReverseString.cs" />
+    <Compile Include="StringLiteral.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
