@@ -1,0 +1,2 @@
+Word? We have few words: first word, second word, third word.
+Some passwords: PASSWORD123, @PaSsWoRd!456, AAaA, !PASSWORD
