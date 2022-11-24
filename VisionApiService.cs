@@ -11,6 +11,7 @@ namespace VisionApiDemo.Business_Layer
 {
     public class VisionApiService
     {
+        //api
         const string subscriptionKey = "c968ef7e-57c7-4899-93de-61eabd9dbdfc";
         const string uriBase =
             "https://group14vision.cognitiveservices.azure.com/";
